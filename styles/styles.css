@@ -1,0 +1,93 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+    
+p a {
+    text-decoration: underline;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+body {
+    display: grid;
+    grid-template:auto 1fr auto / repeat(4, 25%);
+    background: url(../images/low-poly-texture-13.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.75;
+    font-size: 1.2em;
+}
+  
+  
+header, footer {
+    grid-column:  1 / 5;
+    background: rgb(206, 198, 202);
+}
+
+nav ul {
+    padding: 1em 0;
+}
+  
+nav ul, footer {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    grid-row: 2;
+    grid-column: 1 / 5 ;
+    padding: 50px 75px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(206, 198, 202);
+  }
+  
+nav li {
+    flex: 1;
+    list-style-type: none;
+    text-align: center;
+} 
+  
+nav li a {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color:rgb(10, 10, 10);
+}
+
+nav li:hover a {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7cffb9+0,678cfc+100 */
+    background: #72cada; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #7cdae6 0%, #4ebcd8 0%, #678cfc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #7cdae6 0%,#4ebcd8 0%,#678cfc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #7cdae6 0%,#4ebcd8 0%,#678cfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#678cfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+footer {
+    align-items: center;
+    grid-row: 3;
+    text-align: center;
+    padding: 2em 0;
+    color:rgb(10, 10, 10);
+}
+  
+ul {
+    padding-inline-start: 0px;
+} 
+  
