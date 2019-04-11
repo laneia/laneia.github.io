@@ -1,0 +1,63 @@
+html {
+    background: url(../images/low-poly-texture-13.png) no-repeat center center fixed;
+    background-size: cover;
+    color:rgb(10, 10, 10);
+}
+
+body {
+    display: grid;
+    grid-template:auto 1fr auto / repeat(4, 25%);
+    font-family: 'Catamaran', sans-serif;
+}
+
+nav {
+    grid: 1;
+    background: rgba(206, 198, 202, 0.8);
+    width: 250px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 300%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:rgb(10, 10, 10);
+}
+
+nav li a:hover {
+    color: #72cada;
+}
+
+main {
+    grid-row: 1;
+    grid-column: 2/4;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 25px;
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+
+.title {
+    grid-row: 1;
+    font-weight: 900;
+    font-size: 5em;
+}
+
+.left {
+    text-align: left;
+    padding: 20px;
+}

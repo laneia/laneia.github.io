@@ -1,0 +1,18 @@
+nav {
+    height: 100vh;
+}
+
+.center {
+    height: 400px;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(10, 10, 10);
+    border-width: 1em;
+}
+
+.name {
+    background: rgba(206, 198, 202, 0.8);
+    font-family: 'Pacifico', sans-serif;
+    font-size: 1.4em;
+    padding: 3px;
+}
